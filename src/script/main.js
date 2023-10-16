@@ -19,7 +19,7 @@ class WeatherApp extends HTMLElement {
     async getWeather() {
         const city = this.cityInput.value;
         if (!city) {
-            this.weatherInfo.textContent = 'Please enter a city name.';
+            this.weatherInfo.textContent = 'Mohon masukkan nama kota terlebih dahulu.';
             return;
         }
 
